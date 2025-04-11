@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
+    int temp;
+    scanf("%d", &temp);
 
-    if ((a > 0 && b > 0) || (a < 0 && b < 0))
-        printf("Same Sign\n");
+    if (temp <= 0)
+        printf("Freezing\n");
     else
-        printf("Different Sign\n");
+        printf("Above Freezing\n");
 
     return 0;
 }
