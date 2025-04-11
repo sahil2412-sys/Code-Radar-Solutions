@@ -1,9 +1,11 @@
 #include <stdio.h>
-int mainE int x,y;
+int main(){ 
+int x,y;
 scanf("%d%d", &x, &y) ;
-if(x>y)E printf("True");
-elsel
+if(x>y)E {printf("True");
 }
-printf("False");
+else{
+     printf("False");
+}     
 return 0;
 }
