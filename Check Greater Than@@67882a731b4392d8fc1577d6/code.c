@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){ 
     int x,y;
-    scaf("%d%d", &x, &y) ;
-    if(x>y)E {printf("True");
+    scanf("%d%d",&x,&y);
+    if(x>y){ printf("True");
     }
     else{
         printf("False");
